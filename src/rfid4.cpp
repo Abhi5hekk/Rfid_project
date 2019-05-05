@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : rfid4.cpp
-// Author      : shriyansh
+// Author      : Abhishek Kumar
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
@@ -10,7 +10,7 @@
 /**
  * https://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
  * http://kosmisch.net/Blog/DotNetEssential/Archive/2016/3/16/create-and-debug-cc-programs-with-eclipse-and-cygwin-in-windows.html
- * use 32 bit cygwin and command setup-x86.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel –P gdb
+ * use 32 bit cygwin and command setup-x86.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel â€“P gdb
  * set environment path C//cygwin/bin
  * copy RFIDAPI.dll and RFIDAPI.lib in lib folder and RFIDAPIEXPORT to includes folder and put both in project folder
  * specify paths and symbols - project right click > properties > c/c++ general > paths and symbols > gnu c++ >include select includes folder,>library paths select libs folder, libraries write RFIDAPI only
